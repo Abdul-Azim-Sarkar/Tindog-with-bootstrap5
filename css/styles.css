@@ -1,0 +1,125 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 0 15% 15%;
+}
+
+h1 {
+  font-family: 'Exo', sans-serif;
+  font-size: 3rem;
+  line-height: 1.3;
+  font-weight: 900;
+  color: #fff;
+}
+.navbar {
+  padding-bottom: 5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+
+}
+.nav-link {
+  font-style: 'Ubuntu';
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+.title-img {
+  transform: rotate(25deg);
+  position: absolute;
+}
+#features {
+  padding: 10% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+.features-column {
+  text-align: center;
+  padding: 5%;
+}
+h3 {
+  font-family: 'Exo', sans-serif;
+}
+p {
+  color: grey;
+}
+.icon {
+  padding-bottom: 2rem;
+  color: #ef8172;
+
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  padding: 5% ;
+  font-family: 'Ubuntu';
+}
+h2 {
+  font-family: 'Ubuntu';
+  font-size: 3rem;
+  text-align: center;
+  line-height: 4rem;
+  padding: 2% 20%
+}
+.doggo {
+  width: 15%;
+  border-radius: 100%;
+}
+#pricing {
+  text-align: center;
+  padding: 5%;
+}
+.card {
+  margin: 5%;
+}
+.pricing {
+  padding: 5%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: 'Exo';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+.btn-bottom {
+  margin:  4% 2%;
+}
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+
+}
+.social-icon {
+  margin: 20px 10px;
+}
